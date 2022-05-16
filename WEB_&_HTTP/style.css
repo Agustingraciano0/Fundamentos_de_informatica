@@ -3,4 +3,24 @@ body {
 }
 .titulo{
     margin-left: 20px;
+    background-color: lightblue;
+    border: black 4px dotted;
+}
+.Galeria {
+    background-color: yellow;
+}
+footer{
+    background-color: lightblue;
+}
+.Foto1{
+    width: 500px;
+    height: 300px;
+}
+.Messi{
+    width: 400px;
+    height: 370px;
+}
+.Gallardo{
+    width: 500px;
+    height: 270px;
 }
