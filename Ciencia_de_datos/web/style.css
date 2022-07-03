@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "work sans", sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.login{
+    width: 400px;
+    height: max-content;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+main.login h3 {
+    font-size: 32px;
+    font-weight: 400; 
+    text-align: center;
+    color: black;
+}
+
+main.login.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    background: transparent;
+    padding: 0 32px;
+    height: 64px;
+    margin-top: 40px;
+    border: 1px solid red;
+    transition: .3s;
+
+}
+main.login.button:hover{
+    background: red;
+    color: white;
+}
+
+main.login.p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+main.login.input{
+    width: 100%;
+    height: 54px;
+    padding: 0 20px;
+    margin: 6px 0;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+main.login #enviar{
+    background: #00bcd4;
+    color: white;
+}
