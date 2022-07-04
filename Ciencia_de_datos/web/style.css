@@ -49,11 +49,6 @@ main.login.button:hover{
 }
 
 main.login.p{
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    color: black;
-    margin-top: 20px;
 }
 main.login.input{
     width: 100%;
